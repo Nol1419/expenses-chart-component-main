@@ -1,0 +1,1135 @@
+*{
+    box-sizing: border-box;
+    font-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #E6E6E6;
+}
+
+img{
+    display: block;
+}
+
+hr{
+    margin: 0 auto;
+    min-width: 90%;
+    width: 90%;
+}
+
+
+/*DESKTOP 1020*/
+
+/*Container*/
+.container{
+    min-width: 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    /* margin: 9rem auto; */
+    margin: 4rem auto;
+    text-align: center;
+}
+/* container header */
+.container .header__container{
+    border-radius: 20px;
+    background: #ed7453;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10rem;
+    min-width: 50%;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+
+.container .header__container .left_header{
+    text-align: start;
+}
+
+.container .header__container .left_header h2{
+    font-size: 1rem;
+}
+
+.container .header__container .left_header span{
+    font-size: 2.5rem;
+}
+
+.container .header__container .right_header img{
+    width: 100%;
+    min-width: 100%;
+}
+
+/* container body */
+.container .body__container{
+    min-width: 50%;
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container .body__container-body{
+    background: #fff;
+    border-radius: 20px;
+    color: #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem 1rem;
+}
+
+.container .body__container .body__container-body .abrove{
+    text-align: start;
+    padding-left: 20px;
+    font-size: 2.2rem;
+}
+
+.container .body__container .dowm{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    width: 75%;
+    margin: 10rem 3rem 0 3rem;
+    font-size: 1rem;
+}
+
+.container .body__container .dowm .monday{
+    position: relative;
+    left: -10px;
+}
+
+.container .body__container .dowm .monday .data_monday{
+    position: absolute;
+    text-align: center;
+    background: #ff9578;
+    color: #fff;
+    border-radius: 5px;
+    padding: 50px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .monday .data_monday:active{
+    position: absolute;
+    text-align: center;
+    background: #0572f7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 50px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+}
+
+.container .body__container .dowm .monday .data_monday .porcent{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 60px;
+    right: -7px;
+    visibility: hidden;
+}
+
+.container .body__container .dowm .monday .data_monday:hover .porcent{
+    position: absolute;
+    background: #553c3c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 60px;
+    right: -7px;
+    visibility: visible;
+}
+
+.container .body__container .dowm .tuesday{
+    position: relative;
+}
+
+.container .body__container .dowm .tuesday .data_tuesday{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background: #ff9578;
+    color: #fff;
+    border-radius: 5px;
+    padding: 80px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .tuesday .data_tuesday:active{
+    position: absolute;
+    text-align: center;
+    background: #0572f7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 80px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+}
+
+.container .body__container .dowm .tuesday .data_tuesday .porcent{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 85px;
+    right: -7px;
+    visibility: hidden;
+}
+
+.container .body__container .dowm .tuesday .data_tuesday:hover .porcent{
+    position: absolute;
+    background: #553c3c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 85px;
+    right: -7px;
+    visibility: visible;
+}
+
+.container .body__container .dowm .wednesday{
+    position: relative;
+    left: 10px;
+}
+
+.container .body__container .dowm .wednesday .data_wednesday{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background: #ff9578;
+    color: #fff;
+    border-radius: 5px;
+    padding: 150px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .wednesday .data_wednesday:active{
+    position: absolute;
+    text-align: center;
+    background: #0572f7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 150px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+}
+
+.container .body__container .dowm .wednesday .data_wednesday .porcent{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 155px;
+    right: -7px;
+    visibility: hidden;
+}
+
+.container .body__container .dowm .wednesday .data_wednesday:hover .porcent{
+    position: absolute;
+    background: #553c3c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 160px;
+    right: -7px;
+    visibility: visible;
+}
+
+.container .body__container .dowm .thusday{
+    position: relative;
+    left: 20px;
+}
+
+.container .body__container .dowm .thusday .data_thusday{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background: #ff9578;
+    color: #fff;
+    border-radius: 5px;
+    padding: 70px 17px 0 17px;
+    bottom: 20px;
+    left: -5px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .thusday .data_thusday:active{
+    position: absolute;
+    text-align: center;
+    background: #0572f7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 70px 17px 0 30px;
+    bottom: 35px;
+    left: -5px;
+}
+
+.container .body__container .dowm .thusday .data_thusday .porcent{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 80px;
+    right: -7px;
+    visibility: hidden;
+}
+
+.container .body__container .dowm .thusday .data_thusday:hover .porcent{
+    position: absolute;
+    background: #553c3c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 80px;
+    right: -7px;
+    visibility: visible;
+}
+
+.container .body__container .dowm .friday{
+    position: relative;
+    left: 27px;
+}
+
+.container .body__container .dowm .friday .data_friday{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background: #ff9578;
+    border-radius: 5px;
+    color: #fff;
+    padding: 60px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .friday .data_friday:active{
+    position: absolute;
+    text-align: center;
+   background: #0572f7;
+   border-radius: 5px;
+    color: #fff;
+    padding: 60px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+}
+
+.container .body__container .dowm .friday .data_friday .porcent{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 65px;
+    right: -7px;
+    visibility: hidden;
+}
+
+.container .body__container .dowm .friday .data_friday:hover .porcent{
+    position: absolute;
+    background: #553c3c;
+    color: #fff;
+    outline: 10px;
+    padding: 10px 10px 0 10px;
+    bottom: 65px;
+    right: -10px;
+    visibility: visible;
+}
+
+.container .body__container .dowm .saturday{
+    position: relative;
+    left: 32px;
+}
+
+.container .body__container .dowm .saturday .data_saturday{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background: #ff9578;
+    color: #fff;
+    border-radius: 5px;
+    padding: 100px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .saturday .data_saturday:active{
+    position: absolute;
+    text-align: center;
+    background: #0572f7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 100px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .saturday .data_saturday .porcent{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 105px;
+    right: -7px;
+    visibility: hidden;
+}
+
+.container .body__container .dowm .saturday .data_saturday:hover .porcent{
+    position: absolute;
+    background: #553c3c;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 105px;
+    right: -10px;
+    visibility: visible;
+}
+
+.container .body__container .dowm .sunday{
+    position: relative;
+    left: 40px;
+}
+.container .body__container .dowm .sunday .data_sunday{
+    position: absolute;
+    text-align: center;
+    background: #ff9578;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 60px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+    transition: all 400ms ease;
+}
+
+.container .body__container .dowm .sunday .data_sunday:active{
+    position: absolute;
+    text-align: center;
+    background: #0572f7;
+    color: #fff;
+    border-radius: 5px;
+    padding: 60px 17px 0 17px;
+    bottom: 20px;
+    right: -1px;
+}
+
+.container .body__container .dowm .sunday .data_sunday .porcent{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 10px;
+    bottom: 70px;
+    visibility: hidden;
+}
+
+.container .body__container .dowm .sunday .data_sunday:hover .porcent{
+    position: absolute;
+    background: #553c3c;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+    bottom: 70px;
+    right: -15px;
+    visibility: visible;
+}
+
+.container .body__container .body-footer__container{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    justify-content: space-evenly;
+}
+
+.container .body__container .body-footer__container .left_footer{
+    text-align: start;
+    
+}
+
+.container .body__container .body-footer__container .left_footer .titulo_left{
+    color: #a09b9b;
+}
+
+.container .body__container .body-footer__container .left_footer .valor_left{
+    font-size: 3.5rem;   
+    font-weight: 600;
+}
+
+.container .body__container .body-footer__container .right_footer{
+    text-align: end;
+    margin-top: 2rem;
+}
+
+.container .body__container .body-footer__container .right_footer .titulo_right{
+    color: #a09b9b;
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .container{
+        min-width: 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 7rem auto;
+        height: 100%;
+        text-align: center;
+    }
+
+    .container .header__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* font-size: 10rem; */
+        min-width: 50%;
+        max-width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+    }
+
+    .container .header__container .left_header h2{
+        font-size: 2rem;
+    }
+
+    .container .header__container .left_header span{
+        font-size: 4rem;
+    }
+
+    .container .header__container .right_header img{
+        width: 100%;
+        min-width: 100%;
+    }
+
+    /* container body */
+    .container .body__container{
+        min-width: 50%;
+        max-width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .container .body__container-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem 1rem;
+    }
+
+    
+    .container .body__container .body__container-body .abrove{
+        text-align: start;
+        padding-left: 20px;
+        font-size: 3.2rem;
+    }
+
+    .container .body__container .dowm{
+        gap: 3.2rem;
+        width: 80%;
+        margin: 10rem 1.5rem 0 1.5rem;
+        font-size: 2rem;
+    }
+
+    .container .body__container .dowm .monday .data_monday{
+        position: absolute;
+        text-align: center;
+        border-radius: 5px;
+        padding: 50px 17px 0 30px;
+        bottom: 30px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .monday .data_monday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 50px 17px 0 30px;
+        bottom: 30px;
+        right: -1px;
+    }
+
+    .container .body__container .dowm .monday .data_monday .porcent{
+        position: absolute;
+        border-radius: 5px;
+        padding: 10px 10px 0 10px;
+        bottom: 60px;
+        visibility: hidden;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .dowm .tuesday .data_tuesday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        background: #ff9578;
+        color: #fff;
+        border-radius: 5px;
+        padding: 80px 17px 0 30px;
+        bottom: 35px;
+        right: -1px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .tuesday .data_tuesday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 80px 17px 0 30px;
+        bottom: 35px;
+        right: -1px;
+    }
+
+    .container .body__container .dowm .tuesday .data_tuesday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 10px 0 10px;
+        bottom: 85px;
+        right: -7px;
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .dowm .wednesday .data_wednesday{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 150px 17px 0 35px;
+        bottom: 30px;
+        right: 2px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .wednesday .data_wednesday:active{
+        position: absolute;
+        text-align: center;
+        background: #b2cff2;
+        border-radius: 5px;
+        padding: 150px 17px 0 35px;
+        bottom: 30px;
+        right: 2px;
+    }
+
+    .container .body__container .dowm .wednesday .data_wednesday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 10px 0 10px;
+        bottom: 160px;
+        right: -7px;
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .dowm .thusday .data_thusday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 70px 17px 0 30px;
+        bottom: 35px;
+        left: -5px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .thusday .data_thusday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 70px 17px 0 30px;
+        bottom: 35px;
+        left: -5px;
+    }
+
+    .container .body__container .dowm .thusday .data_thusday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 10px 0 10px;
+        bottom: 80px;
+        right: -7px;
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .dowm .friday .data_friday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        background: #ff9578;
+        border-radius: 5px;
+        color: #fff;
+        padding: 60px 25px 0 25px;
+        bottom: 35px;
+        right: -11px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .friday .data_friday:active{
+        position: absolute;
+        text-align: center;
+       background: #0572f7;
+       border-radius: 5px;
+        color: #fff;
+        padding: 60px 25px 0 25px;
+        bottom: 35px;
+        right: -11px;
+    }
+
+    .container .body__container .dowm .friday .data_friday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        outline: 10px;
+        padding: 10px 10px 0 10px;
+        bottom: 65px;
+        right: -10px;
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .dowm .saturday .data_saturday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        background: #ff9578;
+        color: #fff;
+        border-radius: 5px;
+        padding: 100px 25px 0 25px;
+        bottom: 35px;
+        right: -9px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .saturday .data_saturday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 100px 25px 0 25px;
+        bottom: 35px;
+        right: -9px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .saturday .data_saturday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 10px 0 10px;
+        bottom: 105px;
+        right: -10px;
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .dowm .sunday .data_sunday{
+        position: absolute;
+        text-align: center;
+        background: #ff9578;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 60px 25px 0 20px;
+        bottom: 30px;
+        right: -1px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .sunday .data_sunday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 60px 25px 0 20px;
+        bottom: 30px;
+        right: -1px;
+    }
+
+    .container .body__container .dowm .sunday .data_sunday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        border-radius: 5px;
+        padding: 10px 10px 0 10px;
+        bottom: 70px;
+        right: -15px;
+        visibility: visible;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .body-footer__container{
+        display: flex;
+        flex-direction: row;
+        gap: 8rem;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media screen and (min-width: 375px) and ( max-width: 800px) {
+    .container{
+        min-width: 70%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin: 7rem auto;
+        padding: 10px;
+        height: 100%;
+        text-align: center;
+    }
+
+    .container .header__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container .header__container .left_header h2{
+        font-size: 1rem;
+    }
+
+    .container .header__container .left_header span{
+        font-size: 2rem;
+    }
+
+    .container .header__container .right_header img{
+        width: 100%;
+        min-width: 100%;
+    }
+
+    /* container body */
+    .container .body__container{
+        min-width: 100%;
+        max-width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container .body__container-body{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 1rem 1rem;
+        width: 100%;
+    }
+
+    .container .body__container .body__container-body .abrove{
+        padding-left: 20px;
+        font-size: 1.5rem;
+    }
+
+    .container .body__container .dowm{
+        text-align: start;
+        min-width: 40%;
+        width: 40%;
+        margin: 10rem 0 0 0;
+        font-size: 1rem;
+    }
+
+    .container .body__container .dowm .monday .data_monday{
+        position: absolute;
+        text-align: center;
+        border-radius: 5px;
+        padding: 50px 17px 0 10px;
+        bottom: 30px;
+        right: -3px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .monday .data_monday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 50px 17px 0 10px;
+        bottom: 30px;
+        right: -3px;
+    }
+
+    .container .body__container .dowm .monday .data_monday .porcent{
+        position: absolute;
+        border-radius: 5px;
+        padding: 10px 0px 0px 0px;
+        bottom: 60px;
+        visibility: hidden;
+        font-size: .8rem;
+    }
+    
+    .container .body__container .dowm .monday .data_monday:hover .porcent{
+        position: absolute;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        bottom: 60px;
+        visibility: visible;
+        font-size: .7rem;
+    }
+
+    .container .body__container .dowm .tuesday .data_tuesday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        background: #ff9578;
+        border-radius: 5px;
+        padding: 50px 17px 0 10px;
+        bottom: 30px;
+        right: -3px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .tuesday .data_tuesday:active{
+         position: absolute;
+        text-align: center;
+        cursor: pointer;
+        background: #0572f7;
+        border-radius: 5px;
+        padding: 50px 17px 0 10px;
+        bottom: 30px;
+        right: -3px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .tuesday .data_tuesday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        bottom: 60px;
+        visibility: visible;
+        font-size: .7rem;
+    }
+
+    .container .body__container .dowm .wednesday .data_wednesday{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 130px 20px 0 20px;
+        bottom: 30px;
+        right: -7px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .wednesday .data_wednesday:active{
+        position: absolute;
+        text-align: center;
+        background: #b2cff2;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 130px 20px 0 20px;
+        bottom: 30px;
+        right: -7px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .wednesday .data_wednesday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        bottom: 140px;
+        right: -7px;
+        visibility: visible;
+        font-size: .7rem;
+    }
+
+    .container .body__container .dowm .thusday .data_thusday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 70px 17px 0 17px;
+        bottom: 35px;
+        left: -5px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .thusday .data_thusday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 70px 17px 0 17px;
+        bottom: 35px;
+        left: -5px;
+    }
+
+    .container .body__container .dowm .thusday .data_thusday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        bottom: 80px;
+        right: -7px;
+        visibility: visible;
+        font-size: .7rem;
+    }
+
+    .container .body__container .dowm .friday .data_friday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        background: #ff9578;
+        border-radius: 5px;
+        color: #fff;
+        padding: 60px 15px 0 15px;
+        bottom: 35px;
+        right: -8px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .friday .data_friday:active{
+        position: absolute;
+        text-align: center;
+       background: #0572f7;
+       border-radius: 5px;
+        color: #fff;
+        padding: 60px 15px 0 15px;
+        bottom: 35px;
+        right: -8px;
+    }
+
+    .container .body__container .dowm .friday .data_friday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        outline: 10px;
+        padding: 5px 10px 5px 10px;
+        bottom: 65px;
+        right: -10px;
+        visibility: visible;
+        font-size: .7rem;
+    }
+
+    .container .body__container .dowm .saturday .data_saturday{
+        position: absolute;
+        text-align: center;
+        cursor: pointer;
+        background: #ff9578;
+        color: #fff;
+        border-radius: 5px;
+        padding: 100px 15px 0 15px;
+        bottom: 35px;
+        right: -9px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .saturday .data_saturday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 100px 15px 0 15px;
+        bottom: 35px;
+        right: -9px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .saturday .data_saturday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 10px 10px 10px;
+        bottom: 105px;
+        right: -10px;
+        visibility: visible;
+        font-size: .7rem;
+    }
+
+    .container .body__container .dowm .sunday .data_sunday{
+        position: absolute;
+        text-align: center;
+        background: #ff9578;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 60px 13px 0 13px;
+        bottom: 30px;
+        right: -1px;
+        transition: all 400ms ease;
+    }
+
+    .container .body__container .dowm .sunday .data_sunday:active{
+        position: absolute;
+        text-align: center;
+        background: #0572f7;
+        color: #fff;
+        border-radius: 5px;
+        padding: 60px 13px 0 13px;
+        bottom: 30px;
+        right: -1px;
+    }
+
+    .container .body__container .dowm .sunday .data_sunday:hover .porcent{
+        position: absolute;
+        background: #553c3c;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        bottom: 70px;
+        right: -5px;
+        visibility: visible;
+        font-size: .7rem;
+    }
+
+
+    .container .body__container .body-footer__container{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    
+    .container .body__container .body-footer__container .left_footer{
+        text-align: start;        
+    }
+
+    .container .body__container .body-footer__container .left_footer .titulo_left{
+        color: #a09b9b;
+    }
+    
+    .container .body__container .body-footer__container .left_footer .valor_left{
+        font-size: 2.5rem;   
+        font-weight: 600;
+    }
+    
+    .container .body__container .body-footer__container .right_footer{
+        text-align: end;
+        margin-top: 1rem;
+    }
+    
+    .container .body__container .body-footer__container .right_footer .titulo_right{
+        font-size: 1rem;
+        color: #a09b9b;
+    }
+
+
+}
